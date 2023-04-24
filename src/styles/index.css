@@ -1,0 +1,52 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.clock {
+  display: block;
+  width: 100vmin;
+  height: 100vmin;
+}
+
+.marker {
+  fill: currentcolor;
+  stroke: none;
+}
+
+.hand {
+  stroke: currentcolor;
+  stroke-linecap: round;
+}
+
+.hour-hand {
+  stroke-width: 1.5;
+}
+
+.minute-hand {
+  stroke-width: 1;
+}
+
+.second-hand {
+  stroke-width: 0.5;
+}
+
+.center {
+  fill: currentcolor;
+  stroke: none;
+}
+
+.border {
+  fill: none;
+  stroke: currentcolor;
+  stroke-width: 0.5;
+}
